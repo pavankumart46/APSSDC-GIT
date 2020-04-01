@@ -1,0 +1,40 @@
+Right click on Desktop > Git Bash Here
+
+$ git --version --> is used to check the version of Git Installed on your computer.
+$ git config --global user.name "Your Name Here" --> will set your name on git. 
+$ git config --global user.email "Your email Here" --> will set your email on git. 
+$ git config user.name --> return the name set to git
+$ git config user.email --> return the email set to git
+
+Working directory = Project folder
+Repository - is the place where you will save the project versions. 
+
+$git init -> it will initialize a new repository. It will also create a folder called .git (is invisible by default). All the work (Versions) which ever you want to save will be saved inside this folder. 
+Caution: don't access this folder without a valid and important need. 
+
+$ touch filename.extension -> will create a file.
+$ cat filename.extension -> will display the contents of the file.
+
+$ git add <filename1> <filename2> .. -> will add the given files into the staging area
+$ git add . -> will add all the files in the working directory to the staging area
+$ git status -> will give the status of all the files in the working directory.
+$ git rm --cached <filename1> <filename2> .. -> will remove the given files from the staging area.
+$ git commit -> command will commit (Save) all the files that are present in the staging area into the repository as a snapshot (will have 40 char length auto generated SHA key and a commit message)
+
+Vim editor if you want to come out after giving the commit messsge 
+Ubuntu -> ctrl + o
+		-> enter
+		-> ctrl + x
+Windows -> esc
+		  -> :wq (save and exit the vim editor)
+
+$ git commit -m "Initial Commit" -> command will commit (Save) all the files that are present in the staging area into the repository as a snapshot (will have 40 char length auto generated SHA key and a commit message).
+
+$ git log --> will give the commit log in chronological order
+$ git log --oneline --> will make the commit log shorter by only displaying the first 7 characters of Commit SHA Key and the commit message. 
+
+$ git checkout <7/40 char SHA KEY>  -> will take your project how it was during the commit.
+$ git checkout master -> will get you to the normal state of the project.
+
+
+
