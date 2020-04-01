@@ -1,2 +1,4 @@
 Welcome to Source code management and version control using git, GitHub and BitBucket. This class is going to be awesome if you keep working along with me.
 
+
+Corona is a dangerous virus and there is no cure for this virus as of now. so, everyone stay safe in quarantine. 
