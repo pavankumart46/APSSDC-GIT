@@ -36,5 +36,34 @@ $ git log --oneline --> will make the commit log shorter by only displaying the 
 $ git checkout <7/40 char SHA KEY>  -> will take your project how it was during the commit.
 $ git checkout master -> will get you to the normal state of the project.
 
+____________________________
+Working with Remotes
+____________________________
+$ git remote - We can check the remotes available on a repository
+$ git remote add <Variable name > <URL VALUE >  - we can add any number of remotes to the same repository. This remote helps us to sync the changes that we have made on the local system with remote repositories. 
+
+-----------
+Branches
+----------
+$ git branch - to check the number of branches and current active branch
+$ git branch <branch name> - this will create a new branch for me. This new branch will have the code on the current branch. 
+$ git checkout <branch_name> - will take us to that branch
+$ git merge <Branch_name> - will merge the branch with current active branch.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
